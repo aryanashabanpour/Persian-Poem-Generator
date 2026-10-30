@@ -1,8 +1,42 @@
 head {
   background-color: #5D7A4E;
    font-family: Merriweather;
+   text-align: center;
+   padding: 10px;
+   color: #5D7A4E;
 }
 body {
   background-color: #F9F7F3;
   font-family: lato;
+  text-align: center;
+  padding: 10px;
+}
+.text {
+  border-radius: 10px;
+  width: 175px;
+  text-align: center;
+  padding: 5px;
+  font-family: lato;
+  box-shadow: 10px 5px 5px gray;
+}
+.submit {
+  border-radius: 10px;
+  width:50px;
+  text-align: center;
+  padding: 5px;
+  font-family: lato;
+  box-shadow: 0px 4px 30px 0px;
+  background-color: #5D7A4E;
+  border-color: #5D7A4E;
+}
+footer{
+  padding: 20 px;
+  margin: 20px;
+}
+.vazirmatn {
+    font-size: 16px;
+  line-height: 1.5;
+  font-family: "Vazirmatn", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
