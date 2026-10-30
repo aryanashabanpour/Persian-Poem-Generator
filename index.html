@@ -3,47 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI Persian Poem Generator</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/axios@1.20.0/dist/axios.min.js"></script>
+    <title>AI French Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the Persian Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input type = "text"  
-        placeholder="enter the topic here" 
-        autofocus 
-        required 
-        autocomplete="off"
-        id = "user-instruction"
-        />
-        <input type= "submit" class="submit-button" placeholder="submit" />
-      </form>
-      <div class="vazirmatn">
-      <br >
-      بنی آدم اعضای یک پیکرند
-      <br>
-      که در آفرینش ز یک گوهرند
-      <br>
-      چو عضوی به درد آورد روزگار
-      <br>
-      دگر عضو ها را نماند قرار
-    </div class="vazirmatn">
-    </main>
-    <footer>
-      <small>
-      Coded with love by Aryana Shabanpour hosted on
-      <a href="https://github.com/aryanashabanpour" target="_blank"> GitHub </a
-      >and
-      <a href="https://spectacular-florentine-0c6872.netlify.app/" target="_blank"> Netlify </a>
-    </small>
-    </footer>
-    <script src="src/script.js"></script>
+    <div class="container">
+      <header>
+        <h1>AI French Poem Generator</h1>
+      </header>
+
+      <main>
+        <form id="poem-generator-form">
+          <input
+            type="text"
+            placeholder="Enter the topic of the French poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem" id="poem"></div>
+      </main>
+
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/matthieua/" target="_blank">Matt Delac</a>
+        and is
+        <a
+          href="https://github.com/shecodesio/french-poem-generator"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is
+        <a href="https://ai-french-poem-generator.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
+
+    <script src="src/index.js"></script>
   </body>
 </html>
